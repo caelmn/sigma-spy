@@ -21,7 +21,7 @@
 local Configuration = {
 	UseWorkspace = false, 
 	NoActors = false,
-	RepoUrl = "https://raw.githubusercontent.com/depthso/Sigma-Spy/refs/heads/main",
+	RepoUrl = "https://raw.githubusercontent.com/caelmn/sigma-spy/refs/heads/main",
 	ParserUrl = "https://raw.githubusercontent.com/depthso/Roblox-parser/refs/heads/main"
 }
 
@@ -140,4 +140,5 @@ Ui:BeginLogService()
 
 --// Load hooks
 local ActorCode = Files:MakeActorScript(Scripts, ChannelId)
+
 Hook:LoadHooks(ActorCode, ChannelId)
