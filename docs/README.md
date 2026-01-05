@@ -8,12 +8,10 @@ A complete Remote Spy with an incredible parser that captures incoming and outgo
 ## Loadstring
 ```lua
 --// Sigma Spy @depso
-loadstring(game:HttpGet("https://raw.githubusercontent.com/depthso/Sigma-Spy/refs/heads/main/Main.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/caelmn/sigma-spy/refs/heads/main/Main.lua"))()
 ```
 
 ## Notices
-- Sigma Spy will have bugs, please report any bugs by opening an [issue](https://github.com/depthso/Sigma-Spy/issues) on Github
-- If you gave a suggestion, please post it in the [discussions](https://github.com/depthso/Sigma-Spy/discussions)
 - Please do not use Potassium in games with Actors as Potassium's crude implimentations break
 - If you have issues with the executor's comm library (get_comm_channel, create_comm_channel), enable `ForceUseCustomComm` in Sigma Spy/Config.lua which is found in your Executor's workspace folder after running
 - AWP is recommended to use
